@@ -144,9 +144,10 @@ var JQD = (function($, window, document, undefined) {
           // Highlight the icon.
           JQD.util.clear_active();
           $(this).addClass('active');
-        }).live('dblclick', function() {
+		  //        }).live('dblclick', function() {
           // Get the link's target.
           var x = $(this).attr('href');
+		  //alert(x);
           var y = $(x).find('a').attr('href');
 
           // Show the taskbar button.
@@ -155,6 +156,9 @@ var JQD = (function($, window, document, undefined) {
             $(x).show('fast');
           }
 
+		  if(x == '#icon_dock_dbooks') {
+			  $('#dbooks_data').load('/dbooks');
+		  }
           // Bring window to front.
           JQD.util.window_flat();
           $(y).addClass('window_stack').show();
