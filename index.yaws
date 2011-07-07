@@ -31,11 +31,7 @@ window.top.location = 'http://desktop.sonspring.com/ie.html';
       <img src="assets/images/icons/icon_32_disc.png" />
       Audio CD
     </a>
-    <a class="abs icon" style="left:20px;top:260px;" href="#icon_dock_network">
-      <img src="assets/images/icons/icon_32_network.png" />
-      Network
-    </a>
-    <a class="abs icon" style="left:20px;top:340px;" href="#icon_dock_dbooks">
+    <a class="abs icon" style="left:20px;top:260px;" href="#icon_dock_dbooks">
       <img src="assets/images/icons/icon_32_network.png" />
       Duplicate Books
     </a>
@@ -992,7 +988,7 @@ window.top.location = 'http://desktop.sonspring.com/ie.html';
             Local Network Resources
           </div>
 -->
-          <div id="dbooks_data" class="window_main2">
+          <div id="dbooks_data" class="window_main">
 
           </div>
         </div>

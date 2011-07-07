@@ -157,7 +157,7 @@ var JQD = (function($, window, document, undefined) {
           }
 
 		  if(x == '#icon_dock_dbooks') {
-			  $('#dbooks_data').load('/dbooks');
+			  $('#dbooks_data').load('/dbooks?hdr=1');
 		  }
           // Bring window to front.
           JQD.util.window_flat();

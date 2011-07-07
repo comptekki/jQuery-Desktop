@@ -295,13 +295,13 @@ div.ui-resizable-handle {
   width: 150px;
 }
 
-.window_main {
+.window_main2 {
   background: #fff;
   margin: 0 0 0 173px;
   min-height: 100%;
 }
 
-.window_main2 {
+.window_main {
   background: #fff;
   margin: 0 0 0 0;
   min-height: 100%;
