@@ -32,7 +32,7 @@ window.top.location = 'http://desktop.sonspring.com/ie.html';
       Slides
     </a>
     <a class="abs icon" style="left:20px;top:260px;" href="#icon_dock_dbooks">
-      <img src="assets/images/icons/icon_32_network.png" />
+      <img src="assets/images/icons/icon_32_duplicate_books.png" />
       Duplicate Books
     </a>
     <a class="abs icon" style="left:20px;top:340px;" href="#icon_dock_help">
@@ -119,7 +119,7 @@ window.top.location = 'http://desktop.sonspring.com/ie.html';
       <div class="abs window_inner">
         <div class="window_top">
           <span class="float_left">
-            <img src="assets/images/icons/icon_16_help.png" />
+            <img src="assets/images/icons/icon_16_duplicate_books.png" />
             Duplicate Books
           </span>
           <span class="float_right">
@@ -271,7 +271,7 @@ window.top.location = 'http://desktop.sonspring.com/ie.html';
       </li>
       <li id="icon_dock_dbooks">
         <a href="#window_dbooks">
-          <img src="assets/images/icons/icon_22_network.png" />
+          <img src="assets/images/icons/icon_22_duplicate_books.png" />
           Duplicate Books
         </a>
       </li>
