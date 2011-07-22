@@ -119,7 +119,7 @@ window.top.location = 'http://desktop.sonspring.com/ie.html';
       <div class="abs window_inner">
         <div class="window_top">
           <span class="float_left">
-            <img src="assets/images/icons/icon_32_duplicate_books.png" />
+            <img src="assets/images/icons/icon_16_duplicate_books.png" />
             Duplicate Books
           </span>
           <span class="float_right">
