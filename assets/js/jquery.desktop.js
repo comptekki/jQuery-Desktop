@@ -249,7 +249,7 @@ var JQD = (function($, window, document, undefined) {
           }
         });
 
-        $('table.data').each(function() {
+        $('table.datat').each(function() {
           // Add zebra striping, ala Mac OS X.
           $(this).find('tbody tr:odd').addClass('zebra');
         }).find('tr').live('mousedown', function() {
