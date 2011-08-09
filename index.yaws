@@ -155,7 +155,48 @@ window.top.location = 'http://desktop.sonspring.com/ie.html';
         </div>
         <div class="abs window_content">
           <div id="help_data" class="window_main">
-			Help Data
+			<table width="90%" padding="5">
+			  <tr>
+				<td colspan="2"><h2>Search Help</h2></td>
+			  </tr>
+			  <tr>
+				<td colspan="2">
+				  <h2>Duplicate Books</h2>
+				</td>
+			  </tr>
+			  <tr>
+				<td>
+				  Quick Search
+				</td>
+				<td>
+				  Type in text to find results.  Search results are created by <b>OR</b>ing existence of text in each field. I.e.,
+				  if you type in "a",
+				   the results for an "a" existing in any field will be returned.  If you type in "coal age",
+				  the results for "coal<space>age" existing in any field will be returned.
+				</td>
+			  </tr>
+			  <tr>
+				<td>
+				  Field Search
+				</td>
+				<td>
+				  Type in text to find results.  Search results are created by <b>AND</b>ing the text entered in each field. I.e.,
+				  if you type in "a" in the <b>Title</b> field, the results for an "a" existing only in the <b>Title</b> field
+				  will be returned.  If you type in "coal age" in the Title field and "mcgraw" in the Publisher field,
+				  the results for "coal<space>age" existing in the Title field <b>AND</b> "mcgraw" existing in the Publisher
+					field will be returned.
+				</td>
+			  </tr>
+			  <tr>
+				<td>
+				  Not (-) Operator
+				</td>
+				<td>
+				  To remove results that include certain text, add the <b>NOT "-"</b> operator at the beginning
+				  of your text.  I.e., to find all items without "coal", type in "-coal".  
+				</td>
+			  </tr>
+			</table>
           </div>
         </div>
         <div class="abs window_bottom">
